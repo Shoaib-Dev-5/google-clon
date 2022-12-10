@@ -1,0 +1,106 @@
+.home{
+    height: 100vh;
+    overflow: hidden;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.home .right{
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+}
+.home .right > *{
+    padding:  10px;
+    color: rgb(91, 89, 89);
+    margin: 6px;
+}
+.home .right a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.home .right .bi{
+    font-size: 23px;
+    padding: 6px;
+}
+.home .right a:hover{
+    text-decoration: underline;
+}
+.home .right .bi:hover{
+    background-color: rgb(245, 231, 231);
+    border-radius: 50%; 
+}
+.body .logo img{
+    width: 300px;
+    height: auto
+}
+.search-body{
+    display: flex;
+    flex-direction: column;
+
+}
+.search-field{
+    border: 1px solid rgb(203, 186, 186);
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    margin:  15px auto;
+    padding: 10px;
+    border-radius: 999px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.search-field input{
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    padding-left: 12px;
+}
+.search-field .bi{
+    color: gray;
+}
+.btn-body .btn{
+    border: 0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.btn-body .btn:hover{
+    border: 1px solid rgb(215, 207, 207);
+    transition: 0.01s;
+}
+
+/* fotter */
+
+.fotter{
+    height: 60px;
+    background-color: rgb(242, 242, 242);
+    display: flex;
+    justify-content: space-between;
+   
+}
+.fotter .right{
+    display: flex;
+    justify-content: start;
+}
+.fotter a{
+    padding:  10px;
+    color: rgb(91, 89, 89);
+    margin: 6px;
+}
+.fotter a{
+    text-decoration: none;
+}
+.fotter  a:hover{
+    text-decoration: underline;
+}
+.fotter .left{
+    display: flex;
+    align-items: flex-end;
+}
+.fotter .right{
+    display: flex;
+    flex-direction: column;
+}
